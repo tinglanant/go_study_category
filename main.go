@@ -12,10 +12,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	common "github.com/tinglanant/go_study_common"
 
-	"go.mod/domain/repository"
-	"go.mod/handler"
-	"go.mod/proto/category"
-	dataService "go.mod/domain/service"
+	"github.com/tinglanant/go_study_category/domain/repository"
+	"github.com/tinglanant/go_study_category/handler"
+	"github.com/tinglanant/go_study_category/proto/category"
+	dataService "github.com/tinglanant/go_study_category/domain/service"
 
 	ratelimit "github.com/micro/go-plugins/wrapper/ratelimiter/uber/v2"
 
